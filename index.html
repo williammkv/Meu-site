@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WilliamPetry</title>
+    <!--Erros: 1 - não consegui redicionar o menu com justify-content:"space-around
+               2 - footer(#email) movimenta dependendo do margin-bottom do header 
+               3 - Gostaria de redimencionar a imagem do not mais pra cima"
+               4 - RESPONSIVIDADE  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+        
+        
+        img {
+            width: 130px;
+            border-radius: 100%;
+            border:1px solid rgb(10, 188, 233);
+            margin-top: 10px ;
+            margin-left: 45px;
+            margin-bottom:auto;
+            }
+
+        body{
+            background-image: url(/img2.png.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: black;
+            background-size: cover
+            
+            
+           
+        }
+        
+        
+        li{
+            display: inline-block;
+            padding: 15px 20px 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            margin-left:1%;
+                   
+        }
+        a {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 16px;
+            text-decoration: none;
+            color:blueviolet;
+                
+        }
+
+        ul {
+          padding:5px;
+          text-align: center;
+          margin-top: 12px;
+          
+          
+   
+        }
+        ul:hover{
+            background-color: rgb(12, 2, 12);
+        }
+        li:hover{
+            background-color: rgba(240, 221, 197, 0.884);
+        }
+        header {
+            padding:50px 15px;
+            margin-left: 42px;
+            margin-bottom:15%; /*erro, muda o footer*/
+            color:aliceblue;
+            
+
+        }
+        h1 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 40px;
+            margin: auto;
+
+            
+            
+        }
+
+        #name {
+            font-size: 18px;
+            font-family: 'Sarala', sans-serif;
+            margin: auto;
+  
+        }
+        p {
+            font-size: 13px;
+            font-family: 'Sarala', sans-serif;
+            margin: auto;
+        }
+        main {
+          
+        }
+
+        #email{
+            padding:8px;
+            border-top: 0.4px solid #FFF2E7;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            text-align:center;
+            color:aliceblue;
+            
+            }
+            .link {
+                /*se quiser mexer no email do footer*/
+            }
+    </style>
+
+</head>
+    <body>
+        <main>
+        
+        
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="index2.html">Sobre</a></li>
+                    <li><a href="https://www.linkedin.com/in/william-petry-32851a1a8/">Contato</a></li>
+                    <li><a href="https://github.com/williammkv">Portifólio</a></li>
+                </ul>
+            </nav>
+            <a href="https://www.instagram.com/devwilliam_/"><img src="img.png.jpg" title="Instagram, click!"></a>
+                <header>
+                    
+                    <h1>William Petry</h1>
+                    <p id="name">Desenvolvedor Front-Web</p>
+                    <p>HTML5, CSS3, JAVASCRIPT</p>
+
+                </header>
+                    
+    
+    <footer id="email">
+        Contato via e-mail:</b>
+        <a class="link" href="mailto:Williamwop@hotmail.com">
+        williamwop@hotmail.com</a>
+    </footer>
+    </main>
+        </body>
+
+</html>
